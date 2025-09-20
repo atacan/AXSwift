@@ -1,3 +1,4 @@
+#if canImport(Cocoa)
 import Cocoa
 import Foundation
 import Darwin
@@ -161,3 +162,4 @@ private func internalInfoCallback(_ axObserver: AXObserver,
     }
     observer.callbackWithInfo!(observer, element, notif, info)
 }
+#endif

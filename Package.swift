@@ -1,23 +1,31 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
     name: "AXSwift",
+    platforms: [
+        .macOS(.v10_15)
+    ],
     products: [
         .library(
             name: "AXSwift",
-            targets: ["AXSwift"]),
+            targets: ["AXSwift"])
     ],
     targets: [
         .target(
             name: "AXSwift",
-            path: "Sources"),
-        .target(name: "AXSwiftExample",
+            path: "Sources"
+        ),
+        .executableTarget(
+            name: "AXSwiftExample",
             dependencies: ["AXSwift"],
-            path: "AXSwiftExample"),
-        .target(name: "AXSwiftObserverExample",
+            path: "AXSwiftExample",
+        ),
+        .executableTarget(
+            name: "AXSwiftObserverExample",
             dependencies: ["AXSwift"],
-            path: "AXSwiftObserverExample"),
+            path: "AXSwiftObserverExample",
+        ),
     ]
 )

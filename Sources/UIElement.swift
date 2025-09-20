@@ -1,3 +1,4 @@
+#if canImport(Cocoa)
 import Cocoa
 import Foundation
 
@@ -676,3 +677,4 @@ extension UIElement {
         }
     }
 }
+#endif

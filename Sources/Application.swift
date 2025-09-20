@@ -1,3 +1,4 @@
+#if canImport(Cocoa)
 import Cocoa
 
 /// A `UIElement` for an application.
@@ -85,3 +86,4 @@ public final class Application: UIElement {
         return try super.elementAtPosition(x, y)
     }
 }
+#endif

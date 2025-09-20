@@ -1,3 +1,4 @@
+#if canImport(Cocoa)
 import Foundation
 import Cocoa
 
@@ -16,3 +17,4 @@ open class SystemWideElement: UIElement {
         return try super.elementAtPosition(x, y)
     }
 }
+#endif

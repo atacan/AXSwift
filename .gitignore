@@ -4,6 +4,7 @@
 build/
 .build/
 DerivedData
+.swiftpm/*
 
 ## Various settings
 *.pbxuser

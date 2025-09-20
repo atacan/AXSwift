@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AXSwift}",
+            "name": "Debug AXSwiftObserverExample",
+            "program": "${workspaceFolder:AXSwift}/.build/debug/AXSwiftObserverExample",
+            "preLaunchTask": "swift: Build Debug AXSwiftObserverExample"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AXSwift}",
+            "name": "Release AXSwiftObserverExample",
+            "program": "${workspaceFolder:AXSwift}/.build/release/AXSwiftObserverExample",
+            "preLaunchTask": "swift: Build Release AXSwiftObserverExample"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AXSwift}",
+            "name": "Debug AXSwiftExample",
+            "program": "${workspaceFolder:AXSwift}/.build/debug/AXSwiftExample",
+            "preLaunchTask": "swift: Build Debug AXSwiftExample"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:AXSwift}",
+            "name": "Release AXSwiftExample",
+            "program": "${workspaceFolder:AXSwift}/.build/release/AXSwiftExample",
+            "preLaunchTask": "swift: Build Release AXSwiftExample"
+        }
+    ]
+}
